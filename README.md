@@ -43,8 +43,7 @@ sudo certbot --nginx -d your_domain -d your_domain
 
 # Step 5 — Verifying Certbot Auto-Renewal
 ```bash 
-Step 5 — Verifying Certbot Auto-Renewal
-
+sudo certbot renew --dry-run
 ```
 
 
